@@ -1,0 +1,38 @@
+.card__header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card__backlog, .card__inprogress, .card__ready, .card__basket, .card__base, .card__empty {
+    border-radius: var(--border-radius);
+    padding: 15px;
+    margin-bottom: 10px;
+    color: var(--color-text);
+}
+
+.card__backlog {
+    background-color: var(--color-text-gray-gray);
+    color: var(--color-text-gray);
+}
+
+.card__inprogress {
+    background-color: var(--color-text-light-blue);
+    color: var(--color-text-blue);
+}
+
+.card__ready {
+    background-color: var(--color-text-light-green);
+    color: var(--color-text-green);
+}
+
+.card__basket {
+    background-color: var(--color-text-light-red);
+    color: var(--color-text-red);
+}
+
+.card__empty {
+    background-color: var(--color-text-light-light-gray);
+    text-align: center;
+    font-style: italic;
+}
